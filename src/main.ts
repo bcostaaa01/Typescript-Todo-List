@@ -42,3 +42,9 @@ let task4 = new Task("Learn a new language");
 
 let list = new TodoList();
 
+list.addTask(task1);
+list.addTask(task2);
+list.addTask(task3);
+list.addTask(task4);
+
+console.log(list.getCompletedTasks());
