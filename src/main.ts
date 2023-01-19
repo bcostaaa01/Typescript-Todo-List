@@ -46,6 +46,4 @@ list.addTask(task2);
 list.addTask(task3);
 list.addTask(task4);
 
-
-
 console.log(list.getCompletedTasks());
