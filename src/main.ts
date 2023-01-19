@@ -1,5 +1,3 @@
-import { ListFormat } from "typescript";
-
 class Task {
   name: string;
   completed: boolean;
@@ -7,6 +5,7 @@ class Task {
   constructor(name: string) {
     this.name = name;
     this.completed = false;
+    this.complete();
   }
 
   complete() {
@@ -46,5 +45,7 @@ list.addTask(task1);
 list.addTask(task2);
 list.addTask(task3);
 list.addTask(task4);
+
+
 
 console.log(list.getCompletedTasks());

@@ -1,9 +1,8 @@
-"use strict";
-exports.__esModule = true;
 var Task = /** @class */ (function () {
     function Task(name) {
         this.name = name;
         this.completed = false;
+        this.complete();
     }
     Task.prototype.complete = function () {
         this.completed = true;
