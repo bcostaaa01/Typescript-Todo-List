@@ -1,3 +1,5 @@
+import { ListFormat } from "typescript";
+
 class Task {
   name: string;
   completed: boolean;
@@ -15,8 +17,8 @@ class Task {
 class TodoList {
   tasks: Task[];
 
-  constructor(task: Task) {
-    this.tasks.push(task);
+  constructor() {
+    this.tasks = [];
   }
 
   addTask(task: Task) {
@@ -32,3 +34,6 @@ class TodoList {
     return this.tasks.filter((task) => task.completed === true);
   }
 }
+
+let list = new TodoList();
+
