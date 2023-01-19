@@ -35,5 +35,10 @@ class TodoList {
   }
 }
 
+let task1 = new Task("Clean the kitchen");
+let task2 = new Task("Walk the dog");
+let task3 = new Task("Clean the furniture");
+let task4 = new Task("Learn a new language");
+
 let list = new TodoList();
 
